@@ -37,8 +37,8 @@
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="container">
-    <div class="row">
+  <div class="container" id="RootGrid">
+    <div class="row headerRow">
       <div class="twelve columns" id="header">
         <img id="NameLogo" src="images/NameLogo.png" alt="IAB BIRNAM">
         <div class="row">
@@ -60,41 +60,46 @@
         </div>
       </div>
     </div>
-    <!-- About Me Section -->
-    <div class="row offset-by-two eight columns" id="aboutme">
-      <div class="circular four columns" id="profilepic"></div>
-      <div class="eight columns" id="aboutmetext">
-      <h3>Hey there!</h3>
-      <p>My name is Ian. I am a front-end engineer who loves of music, design, writing, and food. I have experience in HTML5, CSS3, UI/UX Branding, Illustrator, XAML, C#, Python, JavaScript, and Java.</p>
-      <p>This website is currently under construction.</p>
+
+    <div class="padding"></div>
+
+    <div class="container row" id="content">
+      <!-- About Me Section -->
+      <div class="row offset-by-two eight columns" id="aboutme">
+        <div class="circular four columns" id="profilepic"></div>
+        <div class="eight columns" id="aboutmetext">
+        <h3>Hey there!</h3>
+        <p>My name is Ian. I am a front-end engineer who loves of music, design, writing, and food. I have experience in HTML5, CSS3, UI/UX Branding, Illustrator, XAML, C#, Python, JavaScript, and Java.</p>
+        <p>This website is currently under construction.</p>
+        </div>
       </div>
-    </div>
-    <!-- Work Section -->
-    <div class="row offset-by-two eight columns" id="work">
-      <h1>Work</h1>
-      <div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet enim eleifend erat efficitur porttitor. Aliquam venenatis enim vel scelerisque malesuada. Suspendisse hendrerit massa libero, id condimentum tellus lobortis id. Suspendisse potenti. Morbi sed pulvinar nisi. Etiam gravida tellus rhoncus nisi tempor posuere. Sed et tincidunt magna. Donec a venenatis enim. Mauris sodales mauris pulvinar, fringilla augue id, interdum massa. Suspendisse potenti. Praesent euismod malesuada augue in egestas. Quisque sit amet venenatis nisl. Nunc enim metus, ullamcorper non urna vitae, placerat viverra augue. Cras et sem sit amet felis consectetur molestie. Praesent tempus vitae magna sed lacinia. Fusce erat elit, pharetra ac libero et, mollis sodales nunc.</p>
+      <!-- Work Section -->
+      <div class="row offset-by-two eight columns" id="work">
+        <h1>Work</h1>
+        <div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet enim eleifend erat efficitur porttitor. Aliquam venenatis enim vel scelerisque malesuada. Suspendisse hendrerit massa libero, id condimentum tellus lobortis id. Suspendisse potenti. Morbi sed pulvinar nisi. Etiam gravida tellus rhoncus nisi tempor posuere. Sed et tincidunt magna. Donec a venenatis enim. Mauris sodales mauris pulvinar, fringilla augue id, interdum massa. Suspendisse potenti. Praesent euismod malesuada augue in egestas. Quisque sit amet venenatis nisl. Nunc enim metus, ullamcorper non urna vitae, placerat viverra augue. Cras et sem sit amet felis consectetur molestie. Praesent tempus vitae magna sed lacinia. Fusce erat elit, pharetra ac libero et, mollis sodales nunc.</p>
+        </div>
       </div>
-    </div>
-    <!-- Experience section -->
-    <div class="row offset-by-two eight columns" id="experience">
-      <h1>Experience</h1>
-      <div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet enim eleifend erat efficitur porttitor. Aliquam venenatis enim vel scelerisque malesuada. Suspendisse hendrerit massa libero, id condimentum tellus lobortis id. Suspendisse potenti. Morbi sed pulvinar nisi. Etiam gravida tellus rhoncus nisi tempor posuere. Sed et tincidunt magna. Donec a venenatis enim. Mauris sodales mauris pulvinar, fringilla augue id, interdum massa. Suspendisse potenti. Praesent euismod malesuada augue in egestas. Quisque sit amet venenatis nisl. Nunc enim metus, ullamcorper non urna vitae, placerat viverra augue. Cras et sem sit amet felis consectetur molestie. Praesent tempus vitae magna sed lacinia. Fusce erat elit, pharetra ac libero et, mollis sodales nunc.</p>
+      <!-- Experience section -->
+      <div class="row offset-by-two eight columns" id="experience">
+        <h1>Experience</h1>
+        <div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet enim eleifend erat efficitur porttitor. Aliquam venenatis enim vel scelerisque malesuada. Suspendisse hendrerit massa libero, id condimentum tellus lobortis id. Suspendisse potenti. Morbi sed pulvinar nisi. Etiam gravida tellus rhoncus nisi tempor posuere. Sed et tincidunt magna. Donec a venenatis enim. Mauris sodales mauris pulvinar, fringilla augue id, interdum massa. Suspendisse potenti. Praesent euismod malesuada augue in egestas. Quisque sit amet venenatis nisl. Nunc enim metus, ullamcorper non urna vitae, placerat viverra augue. Cras et sem sit amet felis consectetur molestie. Praesent tempus vitae magna sed lacinia. Fusce erat elit, pharetra ac libero et, mollis sodales nunc.</p>
+        </div>
       </div>
-    </div>
-    <!-- Writing section -->
-    <div class="row offset-by-two eight columns" id="writing">
-      <h1>Writing</h1>
-      <div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet enim eleifend erat efficitur porttitor. Aliquam venenatis enim vel scelerisque malesuada. Suspendisse hendrerit massa libero, id condimentum tellus lobortis id. Suspendisse potenti. Morbi sed pulvinar nisi. Etiam gravida tellus rhoncus nisi tempor posuere. Sed et tincidunt magna. Donec a venenatis enim. Mauris sodales mauris pulvinar, fringilla augue id, interdum massa. Suspendisse potenti. Praesent euismod malesuada augue in egestas. Quisque sit amet venenatis nisl. Nunc enim metus, ullamcorper non urna vitae, placerat viverra augue. Cras et sem sit amet felis consectetur molestie. Praesent tempus vitae magna sed lacinia. Fusce erat elit, pharetra ac libero et, mollis sodales nunc.</p>
+      <!-- Writing section -->
+      <div class="row offset-by-two eight columns" id="writing">
+        <h1>Writing</h1>
+        <div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet enim eleifend erat efficitur porttitor. Aliquam venenatis enim vel scelerisque malesuada. Suspendisse hendrerit massa libero, id condimentum tellus lobortis id. Suspendisse potenti. Morbi sed pulvinar nisi. Etiam gravida tellus rhoncus nisi tempor posuere. Sed et tincidunt magna. Donec a venenatis enim. Mauris sodales mauris pulvinar, fringilla augue id, interdum massa. Suspendisse potenti. Praesent euismod malesuada augue in egestas. Quisque sit amet venenatis nisl. Nunc enim metus, ullamcorper non urna vitae, placerat viverra augue. Cras et sem sit amet felis consectetur molestie. Praesent tempus vitae magna sed lacinia. Fusce erat elit, pharetra ac libero et, mollis sodales nunc.</p>
+        </div>
       </div>
-    </div>
-    <!-- Contact section -->
-    <div class="row offset-by-two eight columns" id="contact">
-      <h1>Contact</h1>
-      <div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet enim eleifend erat efficitur porttitor. Aliquam venenatis enim vel scelerisque malesuada. Suspendisse hendrerit massa libero, id condimentum tellus lobortis id. Suspendisse potenti. Morbi sed pulvinar nisi. Etiam gravida tellus rhoncus nisi tempor posuere. Sed et tincidunt magna. Donec a venenatis enim. Mauris sodales mauris pulvinar, fringilla augue id, interdum massa. Suspendisse potenti. Praesent euismod malesuada augue in egestas. Quisque sit amet venenatis nisl. Nunc enim metus, ullamcorper non urna vitae, placerat viverra augue. Cras et sem sit amet felis consectetur molestie. Praesent tempus vitae magna sed lacinia. Fusce erat elit, pharetra ac libero et, mollis sodales nunc.</p>
+      <!-- Contact section -->
+      <div class="row offset-by-two eight columns" id="contact">
+        <h1>Contact</h1>
+        <div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet enim eleifend erat efficitur porttitor. Aliquam venenatis enim vel scelerisque malesuada. Suspendisse hendrerit massa libero, id condimentum tellus lobortis id. Suspendisse potenti. Morbi sed pulvinar nisi. Etiam gravida tellus rhoncus nisi tempor posuere. Sed et tincidunt magna. Donec a venenatis enim. Mauris sodales mauris pulvinar, fringilla augue id, interdum massa. Suspendisse potenti. Praesent euismod malesuada augue in egestas. Quisque sit amet venenatis nisl. Nunc enim metus, ullamcorper non urna vitae, placerat viverra augue. Cras et sem sit amet felis consectetur molestie. Praesent tempus vitae magna sed lacinia. Fusce erat elit, pharetra ac libero et, mollis sodales nunc.</p>
+        </div>
       </div>
     </div>
 
