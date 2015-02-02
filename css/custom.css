@@ -94,22 +94,34 @@ body {
 	margin-left: 0px;
 }
 
+
+
+.imageRow {
+	height: 630px;
+}
+
 .imageTextDiv {
-	width: auto !important;
+	/*width: auto !important;*/
 }
 
 .imageTextContainer {
 	position: relative;
+	float: left;
+}
+
+.imageTextPadding {
+	/*padding: 0px 8px 0px 8px;*/
 }
 
 .imageTextHeader {
 	position: absolute;
 	bottom: 10px;
 	background: rgba(0, 0, 0, 0.75);
-	padding: 4px 0px 4px 8px;
+	padding: 4px 0px 4px 0px;
 	color: white;
 	margin: 0;
 	opacity: 0;
+	width: 100%;
 	 transition: opacity .55s ease-in-out;
     -moz-transition: opacity .55s ease-in-out;
     -webkit-transition: opacity .55s ease-in-out;
@@ -127,11 +139,50 @@ body {
 	position: relative;
 }
 
-.textImageOverlay {
-	/*color: white;   
-	background: rgba(0, 0, 0, 0.7);
-	padding: 10px;
-	position: absolute; */
+#zionIPic {
+	height: 608px;
+}
+
+#zionIDiv {
+	float: right;
+	margin-left: 0px;
+	margin-right: 4%;
+}
+
+#silversunPickupsDiv {
+	margin-left: 0px;
+}
+
+.imageRow2 {
+	height: 570px;
+}
+
+#mkDiv {
+	width: auto;
+}
+
+#mkPic {
+	height: 545px;
+}
+
+#stoneFoxesDiv {
+	float: right;
+	margin-left: 0px;
+	margin-right: 16%;
+}
+
+#stoneFoxesPic {
+	height: 545px;
+}
+
+.imageRow3 {
+	height: 630px;
+	margin-bottom: 40px;
+}
+
+#outsideLandsPic {
+	/*height: 345px;*/
+	height: 616px;
 }
 
 @keyframes fadein {
@@ -161,4 +212,4 @@ to   { opacity: 1; }
 @-o-keyframes fadein {
 from { opacity: 0; }
 to   { opacity: 1; }
-}
+}	
