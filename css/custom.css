@@ -68,6 +68,26 @@ body {
         animation: fadein 1.23s;
 }
 
+.experienceSection {
+	margin-bottom: 20px;
+}
+
+.companyLogo {
+	margin-top: -10px;
+}
+
+#bjcLogo {
+	height: 120px;
+}
+
+.boldLi {
+	font-weight: bold;
+}
+
+.techSkillsLi {
+	margin-left: 0px;
+}
+
 @keyframes fadein {
 from { opacity: 0; }
 to   { opacity: 1; }
