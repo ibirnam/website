@@ -94,19 +94,58 @@ body {
 	margin-left: 0px;
 }
 
-
-
-.imageRow {
-	height: 630px;
-}
-
-.imageTextDiv {
-	/*width: auto !important;*/
+#contact {
+	margin-top: 40px;
 }
 
 .imageTextContainer {
-	position: relative;
+	position: absolute;
+}
+
+.medPic {
+	width: 400px !important;
+	height: 225px;
+}
+	.medPic .imageTextContainer {
+		width: 400px;
+		bottom: 80px;
+	}
+
+.lrgPic {
+	width: 470px !important;
+	height: 470px;
+}
+	.lrgPic .imageTextContainer {
+		width: 470px;
+		bottom: 80px;
+	}
+
+.tallPic {
+	width: 400px !important;
+	height: 470px;
+}
+	.tallPic .imageTextContainer {
+		width: 400px;
+		bottom: 80px;
+	}
+
+.widePic {
+	width: 890px !important;
+	height: 225px;
+}
+	.widePic .imageTextContainer {
+		width: 890px;
+		bottom: 80px;
+	}
+
+.leftImage {
+	margin-left: 72px;
 	float: left;
+}
+
+.rightImage {
+	margin-right: 72px;
+	float: right;
 }
 
 .imageTextPadding {
@@ -115,7 +154,7 @@ body {
 
 .imageTextHeader {
 	position: absolute;
-	bottom: 10px;
+	/*bottom: 10px;*/
 	background: rgba(0, 0, 0, 0.75);
 	padding: 4px 0px 4px 0px;
 	color: white;
@@ -135,54 +174,49 @@ body {
 }
 
 .writingPics {
-	height: 300px;
 	position: relative;
+	background-position: center center;
+	background-size: cover;
 }
 
-#zionIPic {
-	height: 608px;
+#geographerDiv {
+	background-image: url("http://i0.wp.com/www.dailycal.org/assets/uploads/2013/11/geographer.musicisentropy.jpg");
 }
 
 #zionIDiv {
-	float: right;
-	margin-left: 0px;
-	margin-right: 4%;
+	background-image: url("http://www.yonasmedia.com/ympress/zioni/images/hi5.jpg");
 }
 
 #silversunPickupsDiv {
-	margin-left: 0px;
-}
-
-.imageRow2 {
-	height: 570px;
+	margin-top: 20px;
+	background-image: url("http://i0.wp.com/www.dailycal.org/assets/uploads/2012/04/band.jpg");
 }
 
 #mkDiv {
-	width: auto;
-}
-
-#mkPic {
-	height: 545px;
+	background-image: url("http://i2.wp.com/www.dailycal.org/assets/uploads/2011/06/mattkim.MOGHTADERI.jpg");
+	margin-top: 20px;
 }
 
 #stoneFoxesDiv {
-	float: right;
-	margin-left: 0px;
-	margin-right: 16%;
-}
-
-#stoneFoxesPic {
-	height: 545px;
-}
-
-.imageRow3 {
-	height: 630px;
-	margin-bottom: 40px;
+	background-image: url("../images/stone_foxes.jpg");
+	margin-top: 20px;
 }
 
 #outsideLandsPic {
-	/*height: 345px;*/
-	height: 616px;
+	background-image: url("http://i1.wp.com/www.dailycal.org/assets/uploads/2013/08/outside-lands-2013-pic-900x504.png");
+	margin-top: 20px;
+}
+
+@media (min-width: 1920px) {
+	.leftImage {
+	margin-left: 245px;
+	float: left;
+	}
+
+	.rightImage {
+		margin-right: 245px;
+		float: right;
+	}
 }
 
 @keyframes fadein {
@@ -212,4 +246,4 @@ to   { opacity: 1; }
 @-o-keyframes fadein {
 from { opacity: 0; }
 to   { opacity: 1; }
-}	
+}
