@@ -98,6 +98,19 @@ body {
 	margin-top: 40px;
 }
 
+#contactIconGridMargin {
+	opacity: 0;
+}
+
+.contactIconDiv {
+	font-size: 72px;
+	text-align: center;
+}
+
+/*@media (max-width:1024px) and (min-width:550px){
+
+}*/
+
 .imageTextContainer {
 	position: absolute;
 }
@@ -139,12 +152,12 @@ body {
 	}
 
 .leftImage {
-	margin-left: 72px;
+	margin-left: 0px;
 	float: left;
 }
 
 .rightImage {
-	margin-right: 72px;
+	margin-right: 0px;
 	float: right;
 }
 
@@ -208,17 +221,79 @@ body {
 	margin-top: 20px;
 }
 
-@media (min-width: 1920px) {
-	.leftImage {
-	margin-left: 245px;
-	float: left;
+@media (max-width: 768px) {
+
+	.container {
+		max-width: none;
+		width: 90%;
+	}
+
+	.padding {
+		padding-bottom: 300px;
+	}
+	.writingPicRow {
+		width: 65%;
+		margin: 0;
+	}
+	.medPic .imageTextContainer {
+		width: 400px;
+		bottom: 62px;
+	}
+	.lrgPic .imageTextContainer {
+		width: 470px;
+		bottom: 62px;
+	}
+	.tallPic .imageTextContainer {
+		width: 400px;
+		bottom: 62px;
+	}
+	.widePic .imageTextContainer {
+		width: 400px;
+		bottom: 62px;
+	}
+}
+
+@media (max-width: 1024px) {
+
+	/*Single column pics if screen is smaller than 1024*/
+	.writingPicRow {
+		width: 65%;
+		margin: 0 auto;
 	}
 
 	.rightImage {
-		margin-right: 245px;
+		float: left;
+	}
+
+	#geographerDiv {
+		margin-bottom: 20px;
+	}
+
+	.widePic {
+		width: 400px !important;
+		height: 225px;
+	}
+	.widePic .imageTextContainer {
+		width: 400px;
+		bottom: 115px;
+	}
+}
+
+@media (min-width: 1920px) {
+
+	/*margins for images on large screens*/
+	.leftImage {
+		margin-left: 178px;
+		float: left;
+	}
+
+	.rightImage {
+		margin-right: 178px;
 		float: right;
 	}
 }
+
+
 
 @keyframes fadein {
 from { opacity: 0; }

@@ -26,14 +26,14 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png">
 
-  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/Font-Awesome/css/font-awesome.min.css">
 
 </head>
 <body>
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="container" id="RootGrid">
+  <div class="outerContainer" id="RootGrid">
     <div class="row headerRow">
       <div class="twelve columns" id="header">
         <img id="NameLogo" src="images/NameLogo.png" alt="IAB BIRNAM">
@@ -149,7 +149,7 @@
         <div class="row">
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet enim eleifend erat efficitur porttitor. Aliquam venenatis enim vel scelerisque malesuada. Suspendisse hendrerit massa libero, id condimentum tellus lobortis id. Suspendisse potenti. Morbi sed pulvinar nisi. Etiam gravida tellus rhoncus nisi tempor posuere.</p>
         </div>
-        <div class="row">
+        <div class="row writingPicRow">
           <a class="imageLink leftImage" href="http://www.dailycal.org/2013/11/20/geographer/" target="_blank">
             <div class="medPic writingPics" id="geographerDiv">
               <div class="imageTextContainer">
@@ -185,8 +185,8 @@
             </div>
           </a>
         </div>
-        <div class="row">
-          
+
+        <div class="row writingPicRow">
           <a href="http://www.dailycal.org/2011/06/22/matt-and-kim-dazzles-and-delights-at-the-fox-theater/" class="imageLink leftImage" target="_blank">
             <div id="mkDiv" class="tallPic writingPics">
               <div class="imageTextContainer">
@@ -211,7 +211,8 @@
             </div>
           </a>
         </div>
-        <div class="row">
+
+        <div class="row writingPicRow">
           <a href="http://www.dailycal.org/2013/08/08/outside-lands-2013-the-soft-white-sixties-midi-matilda-the-mother-hips/" class="imageLink leftImage" target="_blank">
             <div id="outsideLandsPic" class="widePic writingPics">
                 <div class="imageTextContainer">
@@ -227,10 +228,36 @@
       </div>
       <!-- Contact section -->
       <div class="row offset-by-two eight columns" id="contact">
-        <h1>Contact</h1>
-        <div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet enim eleifend erat efficitur porttitor. Aliquam venenatis enim vel scelerisque malesuada. Suspendisse hendrerit massa libero, id condimentum tellus lobortis id. Suspendisse potenti. Morbi sed pulvinar nisi. Etiam gravida tellus rhoncus nisi tempor posuere. Sed et tincidunt magna. Donec a venenatis enim. Mauris sodales mauris pulvinar, fringilla augue id, interdum massa. Suspendisse potenti. Praesent euismod malesuada augue in egestas. Quisque sit amet venenatis nisl. Nunc enim metus, ullamcorper non urna vitae, placerat viverra augue. Cras et sem sit amet felis consectetur molestie. Praesent tempus vitae magna sed lacinia. Fusce erat elit, pharetra ac libero et, mollis sodales nunc.</p>
+        <div class="eight columns" id="contactText">
+          <h1>Contact</h1>
+          <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet enim eleifend erat efficitur porttitor. Aliquam venenatis enim vel scelerisque malesuada. Suspendisse hendrerit massa libero, id condimentum tellus lobortis id. Suspendisse potenti. Morbi sed pulvinar nisi. Etiam gravida tellus rhoncus nisi tempor posuere. Sed et tincidunt magna. Donec a venenatis enim. Mauris sodales mauris pulvinar, fringilla augue id, interdum massa. Suspendisse potenti. Praesent euismod malesuada augue in egestas. Quisque sit amet venenatis nisl. Nunc enim metus, ullamcorper non urna vitae, placerat viverra augue. Cras et sem sit amet felis consectetur molestie. Praesent tempus vitae magna sed lacinia. Fusce erat elit, pharetra ac libero et, mollis sodales nunc.</p>
+          </div>
         </div>
+        <div class="four columns" id="contactIconGrid">
+            <h1 id="contactIconGridMargin">Contact</h1>
+
+            <div id="emailIcon" class="contactIconDiv four columns">
+              <a href="mailto:ian3000@gmail.com" target="_blank">
+                <i class="fa fa-envelope-o"></i>
+              </a>
+            </div>
+            <div id="githubIcon" class="contactIconDiv four columns">
+              <a href="https://github.com/ibirnam" target="_blank">
+                <i class="fa fa-github-alt"></i>
+              </a>
+            </div>
+            <div class="linkedInIcon contactIconDiv four columns">
+              <a href="https://www.linkedin.com/in/ibirnam" target="_blank">
+                <i class="fa fa-linkedin"></i>
+              </a>
+            </div>
+            <div id="facebookIcon" class="contactIconDiv four columns">
+              <a href="https://www.facebook.com/ibirnam" target="_blank">
+                <i class="fa fa-facebook"></i>
+              </a>
+            </div>
+          </div>
       </div>
     </div>
 
