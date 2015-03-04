@@ -116,6 +116,17 @@ body {
 
 }*/
 
+#writingPicsSection {
+	width: 888px;
+}
+
+@media (min-width: 1920px) {
+
+	#writingPicsSection {
+		max-width: 1243px;
+	}
+}
+
 .imageTextContainer {
 	position: absolute;
 }
@@ -236,10 +247,23 @@ body {
 	.padding {
 		padding-bottom: 300px;
 	}
+
+	#writingPicsSection {
+		width: auto;
+	}
+
 	.writingPicRow {
 		width: 65%;
 		margin: 0;
 	}
+	.leftImage {
+		margin-left: 0px;
+	}
+
+	.rightImage {
+		margin-right: 0px;
+	}
+
 	.medPic .imageTextContainer {
 		width: 400px;
 		bottom: 62px;
@@ -263,7 +287,11 @@ body {
 	/*Single column pics if screen is smaller than 1024*/
 	.writingPicRow {
 		width: 65%;
-		margin: 0 auto;
+		/*margin: 0 auto;*/
+	}
+
+	#writingPicsSection {
+		width: auto;
 	}
 
 	.rightImage {
