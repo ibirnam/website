@@ -68,6 +68,11 @@ body {
 	animation: fadein 0.79s;
 }
 
+.workLogo {
+	max-width: 220px;
+	max-height: 150px;
+}
+
 .experienceSection {
 	margin-bottom: 20px;
 }

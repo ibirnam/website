@@ -22,7 +22,7 @@ function onScrollInit( items, trigger ) {
 }
 
 $(function() {
-	// new Vivus('NameLogo', {type: 'delayed', duration: 200, start: 'inViewport'});
-	onScrollInit( $('.os-animation') );
-	onScrollInit( $('.staggered-animation'), $('.staggered-animation-container') );
+	new Vivus('NameLogo', {type: 'delayed', duration: 200, start: 'inViewport'});
+	// onScrollInit( $('.os-animation') );
+	// onScrollInit( $('.staggered-animation'), $('.staggered-animation-container') );
 });
