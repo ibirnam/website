@@ -1,0 +1,28 @@
+@import url("../custom.css");
+@import url("../general_styles.css");
+
+.experienceSection {
+	margin-bottom: 20px;
+}
+
+.companyLogo {
+	margin-top: -10px;
+}
+
+#bjcLogo {
+	height: 60px;
+	margin-top: 5px;
+	margin-left: 20px;
+}
+
+#BILogo {
+	height: 60px;
+}
+
+.boldLi {
+	font-weight: bold;
+}
+
+.techSkillsLi {
+	margin-left: 0px;
+}

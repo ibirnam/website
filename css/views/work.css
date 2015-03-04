@@ -1,0 +1,7 @@
+@import url("../custom.css");
+@import url("../general_styles.css");
+
+.workLogo {
+	max-width: 220px;
+	max-height: 150px;
+}

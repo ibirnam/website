@@ -1,0 +1,15 @@
+@import url("../custom.css");
+@import url("../general_styles.css");
+
+#contact {
+	margin-top: 40px;
+}
+
+#contactIconGridMargin {
+	opacity: 0;
+}
+
+.contactIconDiv {
+	font-size: 72px;
+	text-align: center;
+}

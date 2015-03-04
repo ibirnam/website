@@ -1,0 +1,29 @@
+@import url("../custom.css");
+@import url("../general_styles.css");
+
+.circular {
+	width: 200px !important;
+	height: 200px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background: url("../images/profpic.jpg") no-repeat;
+	background-size: cover;
+}
+
+#aboutme {
+	margin-top: 5%;
+}
+
+#aboutmetext {
+	float: right;
+}
+
+#aboutme * {
+
+	-webkit-animation: fadein 0.79s; /* Safari, Chrome and Opera > 12.1 */
+	-moz-animation: fadein 0.79s; /* Firefox < 16 */
+	-ms-animation: fadein 0.79s; /* Internet Explorer */
+	-o-animation: fadein 0.79s; /* Opera < 12.1 */
+	animation: fadein 0.79s;
+}
