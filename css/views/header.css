@@ -22,7 +22,7 @@
 }
 
 #NameLogo {
-	margin: 1% auto 1% auto;
+	margin: 0 auto 0 auto;
 	display: block;
 }
 
@@ -31,7 +31,7 @@
 }
 
 .navItem {
-	margin-top: 25px;
+	margin-top: 15px;
 }
 
 @media (max-width: 768px) {
