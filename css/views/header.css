@@ -18,7 +18,7 @@
 }
 
 #header * {
-	text-align: center;
+	/*text-align: center;*/
 }
 
 #NameLogo {
@@ -28,4 +28,20 @@
 
 #header a {
 	font-size: 1.5em;
+}
+
+.navItem {
+	margin-top: 25px;
+}
+
+@media (max-width: 768px) {
+	
+	#header a {
+		font-size: 12pt;
+	}
+
+	.navItem {
+		width: auto;
+		margin-left: 8%;
+	}
 }
