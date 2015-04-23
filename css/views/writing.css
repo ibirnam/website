@@ -5,19 +5,12 @@
 	width: 888px;
 }
 
-@media (min-width: 1920px) {
-
-	#writingPicsSection {
-		max-width: 1243px;
-	}
-}
-
 .imageTextContainer {
 	position: absolute;
 }
 
 .medPic {
-	width: 400px !important;
+	width: 400px;
 	height: 225px;
 }
 	.medPic .imageTextContainer {
@@ -26,7 +19,7 @@
 	}
 
 .lrgPic {
-	width: 470px !important;
+	width: 470px;
 	height: 470px;
 }
 	.lrgPic .imageTextContainer {
@@ -35,7 +28,7 @@
 	}
 
 .tallPic {
-	width: 400px !important;
+	width: 400px ;
 	height: 470px;
 }
 	.tallPic .imageTextContainer {
@@ -44,7 +37,7 @@
 	}
 
 .widePic {
-	width: 890px !important;
+	width: 890px ;
 	height: 225px;
 }
 	.widePic .imageTextContainer {
@@ -95,20 +88,20 @@
 }
 
 #geographerDiv {
-	background-image: url("http://i0.wp.com/www.dailycal.org/assets/uploads/2013/11/geographer.musicisentropy.jpg");
+	background-image: url("../../images/geographerImage.jpg");
 }
 
 #zionIDiv {
-	background-image: url("http://www.yonasmedia.com/ympress/zioni/images/hi5.jpg");
+	background-image: url("../../images/zioniImage.jpg");
 }
 
 #silversunPickupsDiv {
 	margin-top: 20px;
-	background-image: url("http://i0.wp.com/www.dailycal.org/assets/uploads/2012/04/band.jpg");
+	background-image: url("../../images/sspuImage.jpg");
 }
 
 #mkDiv {
-	background-image: url("http://i2.wp.com/www.dailycal.org/assets/uploads/2011/06/mattkim.MOGHTADERI.jpg");
+	background-image: url("../../images/kimImage.jpg");
 	margin-top: 20px;
 }
 
@@ -118,8 +111,38 @@
 }
 
 #outsideLandsPic {
-	background-image: url("http://i1.wp.com/www.dailycal.org/assets/uploads/2013/08/outside-lands-2013-pic-900x504.png");
+	background-image: url("../../images/outsideLandsImage.png");
 	margin-top: 20px;
+}
+
+@media (max-width: 1100px) {
+
+	/*Single column pics if screen is smaller than 1100*/
+	.writingPicRow {
+		width: 65%;
+		margin: 0 auto;
+	}
+
+	#writingPicsSection {
+		width: auto;
+	}
+
+	.rightImage {
+		float: left;
+	}
+
+	#geographerDiv {
+		margin-bottom: 20px;
+	}
+
+	.widePic {
+		width: 400px ;
+		height: 225px;
+	}
+	.widePic .imageTextContainer {
+		width: 400px;
+		bottom: 115px;
+	}
 }
 
 @media (max-width: 768px) {
@@ -167,37 +190,12 @@
 	}
 }
 
-@media (max-width: 1024px) {
-
-	/*Single column pics if screen is smaller than 1024*/
-	.writingPicRow {
-		width: 65%;
-		/*margin: 0 auto;*/
-	}
+@media (min-width: 1900px) {
 
 	#writingPicsSection {
+		max-width: 1243px;
 		width: auto;
 	}
-
-	.rightImage {
-		float: left;
-	}
-
-	#geographerDiv {
-		margin-bottom: 20px;
-	}
-
-	.widePic {
-		width: 400px !important;
-		height: 225px;
-	}
-	.widePic .imageTextContainer {
-		width: 400px;
-		bottom: 115px;
-	}
-}
-
-@media (min-width: 1920px) {
 
 	/*margins for images on large screens*/
 	.leftImage {
