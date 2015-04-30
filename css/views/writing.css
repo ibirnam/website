@@ -135,6 +135,20 @@
 		margin-bottom: 20px;
 	}
 
+	.lrgPic {
+		width: 400px;
+		height: 400px;
+	}
+
+	.lrgPic .imageTextContainer {
+		width: 400px;
+	}
+
+	#stoneFoxesDiv .imageTextContainer {
+		width: 400px;
+		bottom: 115px;
+	}
+
 	.widePic {
 		width: 400px ;
 		height: 225px;
@@ -177,7 +191,11 @@
 		bottom: 62px;
 	}
 	.lrgPic .imageTextContainer {
-		width: 470px;
+		width: 400px;
+		bottom: 62px;
+	}
+	#stoneFoxesDiv .imageTextContainer {
+		width: 400px;
 		bottom: 62px;
 	}
 	.tallPic .imageTextContainer {
@@ -187,6 +205,72 @@
 	.widePic .imageTextContainer {
 		width: 400px;
 		bottom: 62px;
+	}
+}
+
+@media (max-width: 450px) {
+
+	.container {
+		max-width: none;
+		width: 90%;
+	}
+
+	.padding {
+		padding-bottom: 300px;
+	}
+
+	#writingPicsSection {
+		width: auto;
+	}
+
+	.writingPicRow {
+		width: 65%;
+		margin: 0;
+	}
+	.leftImage {
+		margin-left: 0px;
+	}
+
+	.rightImage {
+		margin-right: 0px;
+	}
+
+	.medPic {
+		width: 300px;
+	}
+
+	.lrgPic {
+		width: 300px;
+		height: 300px;
+	}
+
+	.tallPic {
+		width: 300px ;
+	}
+
+	.widePic {
+		width: 300px ;
+	}
+
+	.medPic .imageTextContainer {
+		width: 300px;
+		bottom: 62px;
+	}
+	.lrgPic .imageTextContainer {
+		width: 300px;
+		bottom: 62px;
+	}
+	#stoneFoxesDiv .imageTextContainer {
+		width: 300px;
+		bottom: 90px;
+	}
+	.tallPic .imageTextContainer {
+		width: 300px;
+		bottom: 62px;
+	}
+	.widePic .imageTextContainer {
+		width: 300px;
+		bottom: 90px;
 	}
 }
 
