@@ -12,3 +12,10 @@ body {
 	background-image: url("images/agsquare.png");
 	font-size: 1.7em;
 }
+
+@media (max-width: 768px) {
+	.container {
+		max-width: none;
+		width: 90%;
+	}
+}
