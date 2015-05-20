@@ -27,3 +27,25 @@
 .techSkillsLi {
 	margin-left: 0px;
 }
+
+.circular-bar {
+  text-align: center;
+  visibility: hidden;
+}
+  
+.circular-bar-content {
+    margin-bottom: 70px;
+    margin-top: -95px;
+    text-align: center;
+}
+.circular-bar-content strong {
+  display: block;
+  font-weight: 600;
+  @include font-size(18,24);
+}
+
+.circular-bar-content label {
+  display: block;
+  font-weight: 300;
+  @include font-size(15,20);
+}
