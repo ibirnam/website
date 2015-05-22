@@ -28,14 +28,19 @@
 	margin-left: 0px;
 }
 
+.dial {
+  visibility: hidden;
+}
+
 .circular-bar {
   text-align: center;
-  visibility: hidden;
+  margin-bottom: 70px;
 }
   
 .circular-bar-content {
-    margin-bottom: 70px;
-    margin-top: -95px;
+	color: #1EAEDB;
+    margin-bottom: 40px;
+    /*margin-top: -95px;*/
     text-align: center;
 }
 .circular-bar-content strong {
@@ -48,4 +53,8 @@
   display: block;
   font-weight: 300;
   @include font-size(15,20);
+}
+
+.skillDescription span {
+	font-size: 1.4rem;
 }

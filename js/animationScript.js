@@ -1,7 +1,7 @@
 // Credit to 
 // http://codepen.io/AdelDima/pen/ueKrI
 function animateProgressCirles() {
-	$('.circular-bar').each(function() {
+	$('.dial').each(function() {
 		var elm = $(this);
 		elm.css('visibility', 'visible');
 	});
@@ -32,7 +32,7 @@ function animateProgressCirles() {
 
 		//circular progress bar color
 		$(this).append(function() {
-		  elm.parent().parent().find('.circular-bar-content').css('color',color);
+		  elm.parent().parent().find('.circular-bar-content').css('margin-top',"-95px");
 		  elm.parent().parent().find('.circular-bar-content label').text(perc+'%');
 		});
 
@@ -43,7 +43,10 @@ function setProgressCircleWaypoints() {
 	$('#technicalSkills').each(function () { 
 		var elem = $(this)
 		elem.waypoint(function() {
-			animateProgressCirles();
+			if (!window.seen) {
+				animateProgressCirles();
+				window.seen = true;
+			}
 		},{
 	        triggerOnce: true,
 	        offset: '75%'
@@ -75,6 +78,7 @@ function onScrollInit( items, trigger ) {
 }
 
 $(function() {
+	window.seen = false;
 	new Vivus('NameLogo', {type: 'delayed', duration: 200, start: 'inViewport'});
 	setProgressCircleWaypoints();
 	// onScrollInit( $('.os-animation') );
