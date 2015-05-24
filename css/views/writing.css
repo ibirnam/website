@@ -159,6 +159,17 @@
 	}
 }
 
+#seeAllWriting {
+	/*color: #1EAEDB;*/
+	/*background: rgba(229,229,229,0.5);*/
+	position:absolute;
+	left:50%;
+	margin:20px 0 0 -150px;
+	width:300px;
+	height:80px;
+	font-size: 1.4rem;
+}
+
 @media (max-width: 768px) {
 
 	.container {
