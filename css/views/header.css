@@ -26,6 +26,14 @@
 	display: block;
 }
 
+/*#letterI {
+	fill: #1DADD9;
+}
+
+#letterB {
+	fill:linear-gradient(#f9d423, #ff4e50);
+}*/
+
 #header a {
 	font-size: 1.5em;
 	text-decoration: none;
