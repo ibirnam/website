@@ -55,6 +55,8 @@
   @include font-size(15,20);
 }
 
-.skillDescription span {
+.skillDescription {
 	font-size: 1.4rem;
+	max-width: 130px;
+	margin: 0 auto;
 }
