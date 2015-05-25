@@ -22,17 +22,25 @@
 }
 
 #NameLogo {
-	margin: 0 auto 0 auto;
+	margin: 0 auto;
 	display: block;
 }
 
-/*#letterI {
+#letterI {
 	fill: #1DADD9;
 }
 
 #letterB {
-	fill:linear-gradient(#f9d423, #ff4e50);
-}*/
+	fill: #000000;
+}
+
+#NameLogo:hover #letterI {
+	fill: url(#blueToBlack);
+}
+
+#NameLogo:hover #letterB {
+	fill: url(#blackToBlue);
+}
 
 #header a {
 	font-size: 1.5em;
