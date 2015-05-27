@@ -6,6 +6,7 @@
 	position: fixed;
 	right: 0px;
 	left: 0px;
+	z-index: 2000;
 }
 
 
@@ -13,7 +14,16 @@
 	padding-top: 10px;
 	padding-bottom: 10px;
 	background-image: url("../images/bright_squares.png");
+	/*background-image: url("../images/agsquare.png");
+	-webkit-transition: background-image 300ms ease-in 200ms;
+    -moz-transition: background-image 300ms ease-in 200ms;
+    -o-transition: background-image 300ms ease-in 200ms;
+    transition: background-image 300ms ease-in 200ms;*/
 }
+
+/*#header:hover {
+	background-image: url("../images/bright_squares.png");
+}*/
 
 #NameLogo {
 	margin: 0 auto;
