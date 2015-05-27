@@ -6,19 +6,13 @@
 	position: fixed;
 	right: 0px;
 	left: 0px;
-	z-index: 1020;
 }
 
 
 #header {
-	background: #eee;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	background-image: url("../images/bright_squares.png");
-}
-
-#header * {
-	/*text-align: center;*/
 }
 
 #NameLogo {
