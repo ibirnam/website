@@ -31,16 +31,41 @@
 }
 
 #letterB {
-	fill: #000000;
+	fill: #050505;
 }
 
-#NameLogo:hover #letterI {
+#hoverLetterI, #hoverLetterB {
+	opacity: 0.0;
+	display: inline-block;
+	-webkit-transition: opacity .7s ease;
+	-moz-transition: opacity .7s ease;
+	-o-transition: opacity .7s ease;
+	transition: opacity .7s ease;
+}
+
+#hoverLetterI {
+	fill: #050505;
+}
+
+#NameLogo:hover #hoverLetterI {
+	opacity: 1.0;
+}
+
+#hoverLetterB {
+	fill: #1DADD9;
+}
+
+#NameLogo:hover #hoverLetterB {
+	opacity: 1.0;
+}
+
+/*#NameLogo:hover #letterI {
 	fill: url(#blueToBlack);
 }
 
 #NameLogo:hover #letterB {
 	fill: url(#blackToBlue);
-}
+}*/
 
 #header a {
 	font-size: 1.5em;
