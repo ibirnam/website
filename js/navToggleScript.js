@@ -18,6 +18,11 @@ $(document).ready(function() {
          $(this).css("visibility", "hidden");
       }
     });
+    if (isNavClosed === true) {
+      $("#header").css("background-image", 'url("css/images/bright_squares.png")');
+    } else {
+      $("#header").css("background-image", 'url("css/images/Blank.png")');
+    }
   };
 
   $("#logoAnchor").click(function(evt) {

@@ -14,20 +14,21 @@
 	padding-top: 10px;
 	padding-bottom: 10px;
 	background-image: url("../images/bright_squares.png");
-	/*background-image: url("../images/agsquare.png");
-	-webkit-transition: background-image 300ms ease-in 200ms;
-    -moz-transition: background-image 300ms ease-in 200ms;
-    -o-transition: background-image 300ms ease-in 200ms;
-    transition: background-image 300ms ease-in 200ms;*/
+	/*background-image: url("../images/agsquare.png");*/
+	-webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+    transition: 0.5s ease;
 }
 
 /*#header:hover {
-	background-image: url("../images/bright_squares.png");
+	background-image: url("../images/Blank.png");
 }*/
 
 #NameLogo {
 	margin: 0 auto;
 	display: block;
+	cursor: pointer;
 }
 
 #letterI {
@@ -93,10 +94,10 @@
 	.navItem {
 		width: auto;
 		margin-left: 8%;
-		transition: 1s ease;
-		-webkit-transition: 1s ease;
-		-moz-transition: 1s ease;
-		-o-transition: 1s ease;
+		transition:  0.5s ease;
+		-webkit-transition:  0.5s ease;
+		-moz-transition:  0.5s ease;
+		-o-transition:  0.5s ease;
 	}
 
 	#NameLogo {
@@ -112,10 +113,10 @@
 		width: auto;
 		margin-left: 8%;
 		margin-top: 15px;
-		transition: 1s ease;
-		-webkit-transition: 1s ease;
-		-moz-transition: 1s ease;
-		-o-transition: 1s ease;
+		transition:  0.5s ease;
+		-webkit-transition:  0.5s ease;
+		-moz-transition:  0.5s ease;
+		-o-transition:  0.5s ease;
 	}
 }
 
