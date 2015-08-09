@@ -6,18 +6,18 @@
 }
 
 .companyLogo {
-	margin-top: -10px;
+	margin-top: 5px;
 }
 
 #bjcLogo {
 	height: 60px;
-	margin-top: 5px;
+	margin-top: 15px;
 	margin-left: 20px;
 }
 
 #BILogo {
 	height: 60px;
-	margin-top:0px;
+	margin-top:-10px;
 }
 
 .boldLi {
@@ -59,4 +59,14 @@
 	font-size: 1.4rem;
 	max-width: 130px;
 	margin: 0 auto;
+}
+
+@media (max-width: 450px) {
+	#bjcLogo {
+		margin: -10px 0 0 0;
+	}
+
+	#vertigoLogo {
+		margin-top: -10px;
+	}
 }
