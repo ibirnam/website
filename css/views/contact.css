@@ -13,3 +13,9 @@
 	font-size: 72px;
 	text-align: center;
 }
+
+@media (max-width: 450px) {
+	#contact {
+		margin-top: 50px;
+	}
+}

@@ -19,3 +19,17 @@ body {
 		width: 90%;
 	}
 }
+
+@media (max-width: 450px) {
+	.button,
+	button,
+	input[type="submit"],
+	input[type="reset"],
+	input[type="button"] {
+		padding: 0 10px;
+	}
+
+	.container {
+		padding: 0 10px;
+	}
+}

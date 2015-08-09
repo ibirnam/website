@@ -260,20 +260,20 @@
 	}
 
 	.medPic {
-		width: 300px;
+		width: 280px;
 	}
 
 	.lrgPic {
-		width: 300px;
-		height: 300px;
+		width: 280px;
+		height: 280px;
 	}
 
 	.tallPic {
-		width: 300px ;
+		width: 280px ;
 	}
 
 	.widePic {
-		width: 300px ;
+		width: 280px ;
 	}
 
 	.imageTextHeader {
@@ -288,24 +288,40 @@
 	}
 
 	.medPic .imageTextContainer {
-		width: 300px;
+		width: 280px;
+		bottom: 88px;
+	}
+	/*shorter description, needs different bottom*/
+	#silversunPickupsDiv.medPic .imageTextContainer {
+		width: 280px;
 		bottom: 62px;
 	}
 	.lrgPic .imageTextContainer {
-		width: 300px;
-		bottom: 62px;
+		width: 280px;
+		bottom: 88px;
 	}
 	#stoneFoxesDiv .imageTextContainer {
-		width: 300px;
+		width: 280px;
 		bottom: 90px;
 	}
 	.tallPic .imageTextContainer {
-		width: 300px;
-		bottom: 62px;
+		width: 280px;
+		bottom: 88px;
 	}
 	.widePic .imageTextContainer {
-		width: 300px;
+		width: 280px;
 		bottom: 90px;
+	}
+
+	#seeAllWriting {
+		/*color: #1EAEDB;*/
+		/*background: rgba(229,229,229,0.5);*/
+		position:inherit;
+		/*left:50%;*/
+		margin:20px 0 0 0;
+		width:280px;
+		height:75px;
+		font-size: 1.4rem;
 	}
 }
 
