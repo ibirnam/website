@@ -27,3 +27,9 @@
 	-o-animation: fadein 0.79s; /* Opera < 12.1 */
 	animation: fadein 0.79s;
 }
+
+@media (max-width: 768px) {
+	.circular {
+		margin: 0 0 20px 0;
+	}
+}
