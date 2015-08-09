@@ -199,6 +199,17 @@
 		margin-right: 0px;
 	}
 
+	.imageTextHeader {
+		position: absolute;
+		/*bottom: 10px;*/
+		background: rgba(0, 0, 0, 0.75);
+		padding: 4px 0px 4px 0px;
+		color: white;
+		margin: 0;
+		opacity: 1;
+		width: 100%;
+	}
+
 	.medPic .imageTextContainer {
 		width: 400px;
 		bottom: 62px;
@@ -263,6 +274,17 @@
 
 	.widePic {
 		width: 300px ;
+	}
+
+	.imageTextHeader {
+		position: absolute;
+		/*bottom: 10px;*/
+		background: rgba(0, 0, 0, 0.75);
+		padding: 4px 0px 4px 0px;
+		color: white;
+		margin: 0;
+		opacity: 1;
+		width: 100%;
 	}
 
 	.medPic .imageTextContainer {

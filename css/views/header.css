@@ -52,7 +52,7 @@
 	fill: #050505;
 }
 
-#NameLogo:hover #hoverLetterI {
+#NameLogo:hover #hoverLetterI, #NameLogo:focus #hoverLetterI, #NameLogo:active #hoverLetterI {
 	opacity: 1.0;
 }
 
@@ -60,7 +60,7 @@
 	fill: #1DADD9;
 }
 
-#NameLogo:hover #hoverLetterB {
+#NameLogo:hover #hoverLetterB, #NameLogo:focus #hoverLetterB, #NameLogo:active #hoverLetterB {
 	opacity: 1.0;
 }
 
