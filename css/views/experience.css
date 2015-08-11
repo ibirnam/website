@@ -26,6 +26,11 @@
 
 .boldLi {
 	font-weight: bold;
+	display: block;
+}
+
+.boldLi a {
+	text-decoration: none;
 }
 
 .techSkillsLi {
