@@ -4,9 +4,9 @@
 .circular {
 	width: 200px !important;
 	height: 200px;
-	border-radius: 150px;
-	-webkit-border-radius: 150px;
-	-moz-border-radius: 150px;
+	border-radius: 30px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
 	background: url("../images/profpic.jpg") no-repeat;
 	background-size: cover;
 }
@@ -31,5 +31,16 @@
 @media (max-width: 768px) {
 	.circular {
 		margin: 0 0 20px 0;
+	}
+}
+
+@media (max-width: 450px) {
+	.circular {
+		/*position:absolute;
+		left:50%;
+		top:50%;
+		margin: -100px 0 20px -100px;*/
+		margin: 0 auto 20px auto;
+		float: none;
 	}
 }
