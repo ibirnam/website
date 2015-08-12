@@ -9,10 +9,6 @@
 	margin-top: 5px;
 }
 
-#vertigoLogo {
-	margin-left: -40px;
-}
-
 #bjcLogo {
 	height: 60px;
 	margin-top: 15px;
@@ -31,6 +27,10 @@
 
 .boldLi a {
 	text-decoration: none;
+}
+
+.experienceList p {
+	font-size: 1.5rem;
 }
 
 .techSkillsLi {
