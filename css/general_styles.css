@@ -5,7 +5,7 @@
 }
 
 .padding {
-	padding-bottom: 130px;
+	padding-bottom: 90px;
 }
 
 body {
@@ -17,6 +17,10 @@ body {
 	.container {
 		max-width: none;
 		width: 90%;
+	}
+	
+	.padding {
+		padding-bottom: 130px;
 	}
 }
 
@@ -30,7 +34,7 @@ body {
 	}
 
 	.container {
-		padding: 0 10px;
+		padding: 0 20px;
 	}
 	
 	h1, h2, h3 {
