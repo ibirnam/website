@@ -160,10 +160,11 @@
 }
 
 #seeAllWriting {
-	position:absolute;
-	left:50%;
-	margin:20px 0 0 -150px;
-	width:300px;
+	/*position:absolute;
+	left:50%;*/
+	margin: 0 auto;
+	display: block;
+	/*width:300px;*/
 	height:80px;
 	font-size: 1.4rem;
 }
@@ -228,6 +229,20 @@
 		width: 400px;
 		bottom: 62px;
 	}
+	
+	/*TODO: not working yet, need to fix*/
+	/*.writingPicRow {
+		width: auto;
+		margin: 0 auto;
+	}
+	
+	.imageLink {
+		float: none;
+	}
+	
+	.writingPics {
+		margin: 0 auto 20px auto; 
+	}*/
 }
 
 @media (max-width: 450px) {
@@ -246,9 +261,18 @@
 	}
 
 	.writingPicRow {
-		width: 65%;
-		margin: 0;
+		width: auto;
+		margin: 0 auto;
 	}
+	
+	.imageLink {
+		float: none;
+	}
+	
+	.writingPics {
+		margin: 0 auto 20px auto; 
+	}
+	
 	.leftImage {
 		margin-left: 0px;
 	}
@@ -309,17 +333,6 @@
 	.widePic .imageTextContainer {
 		width: 280px;
 		bottom: 90px;
-	}
-
-	#seeAllWriting {
-		/*color: #1EAEDB;*/
-		/*background: rgba(229,229,229,0.5);*/
-		position:inherit;
-		/*left:50%;*/
-		margin:20px 0 0 0;
-		width:280px;
-		height:75px;
-		font-size: 1.4rem;
 	}
 }
 
