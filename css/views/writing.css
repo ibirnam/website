@@ -1,6 +1,10 @@
 @import url("../custom.css");
 @import url("../general_styles.css");
 
+#writing {
+	margin-top: -50px;
+}
+
 #writingPicsSection {
 	width: 888px;
 }
