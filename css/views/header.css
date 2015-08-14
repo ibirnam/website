@@ -93,6 +93,7 @@
 
 	.navItem {
 		width: auto;
+		margin-top: 7%;
 		margin-left: 8%;
 		transition:  0.5s ease;
 		-webkit-transition:  0.5s ease;
@@ -108,15 +109,9 @@
 	}
 }
 
-@media (max-width: 768px) and (min-width: 617px){
+@media (max-width: 450px) {
 	.navItem {
-		width: auto;
-		margin-left: 8%;
 		margin-top: 15px;
-		transition:  0.5s ease;
-		-webkit-transition:  0.5s ease;
-		-moz-transition:  0.5s ease;
-		-o-transition:  0.5s ease;
 	}
 }
 
