@@ -194,7 +194,8 @@
 	}
 }
 
-@media (max-width: 768px) {
+/*Set it to go off for things right under the 768 threshold. looks bad otherwise.*/
+@media (max-width: 767px) {
 
 	.container {
 		max-width: none;
