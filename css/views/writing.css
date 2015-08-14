@@ -348,6 +348,13 @@
 	}
 }
 
+@media (max-width: 330px) {
+	/*better center alignment for small screens*/
+	#writingPicsSection {
+		margin-left: -10px;
+	}
+}
+
 @media (min-width: 1900px) {
 
 	#writingPicsSection {
