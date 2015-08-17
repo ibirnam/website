@@ -353,6 +353,11 @@
 	#writingPicsSection {
 		margin-left: -10px;
 	}
+	
+	/*For iPhone 5 and smaller*/
+	#seeAllWriting {
+		margin: 0 auto 0 10px;	
+	}
 }
 
 @media (min-width: 1900px) {
